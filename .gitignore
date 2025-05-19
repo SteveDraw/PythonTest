@@ -13,6 +13,16 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+# 忽略虚拟环境文件夹（名称可能是 venv, .venv, env, .env 等）
+venv/
+.venv/
+env/
+.env/
+
+# __pycache__ 缓存目录
+__pycache__/
+*.py[cod]
+
 # Mono auto generated files
 mono_crash.*
 
